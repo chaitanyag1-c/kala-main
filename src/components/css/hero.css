@@ -1,0 +1,28 @@
+#kaka{
+
+position: absolute;
+right: 0px;
+top: 0px;
+border: none;
+background: aliceblue;
+}
+#cont-bg{
+    background:url('https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    height: 90vh;
+    width: 98vw;
+    opacity: 0.6;
+    z-index: -1;
+
+}
+#login-cont{
+    background:url('https://images.unsplash.com/photo-1543353071-873f17a7a088?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8aGVhbHRoeSUyMGZvb2R8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    height: 90vh;
+    width: 98vw;
+    opacity: 0.6;
+    z-index: -1;
+
+}
