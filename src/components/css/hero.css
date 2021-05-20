@@ -26,3 +26,15 @@ background: aliceblue;
     z-index: -1;
 
 }
+@media only screen and (max-width: 800px) {
+    #login-cont{
+        background:url('https://images.unsplash.com/photo-1543353071-873f17a7a088?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8aGVhbHRoeSUyMGZvb2R8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80') no-repeat center center/cover;
+        content: "";
+        position: absolute;
+        height: 190vh;
+        width: 98vw;
+        opacity: 0.6;
+        z-index: -1;
+    
+    }
+  }

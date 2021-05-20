@@ -1,10 +1,10 @@
 
-  .wrapper {
+  .wrapper1 {
     display: flex;
     width: 100%;
     justify-content: space-around;
 position: absolute;
-top: 230px;
+top: 730px;
 }
 .align-text1{
     color: black;
@@ -22,7 +22,7 @@ top: 230px;
     width: 100%;
     justify-content: space-around;
     position: absolute;
-    top: 730px;
+    top: 230px;
 } 
   .card1 {
     width: 280px;
@@ -32,6 +32,7 @@ top: 230px;
     background: white;
     position: relative;
     display: flex;
+    margin:10px;
     align-items: flex-end;
     transition: 0.4s ease-out;
     box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
@@ -86,7 +87,7 @@ top: 230px;
     font-size: 15px;
     margin-top: 8px;
   }
-  .card1 .info button {
+  .card1 .info a {
     padding: 0.6rem;
     outline: none;
     border: none;
@@ -100,4 +101,15 @@ top: 230px;
   .card1 .info button:hover {
     background: dodgerblue;
     color: white;
+  }
+
+  @media only screen and (max-width: 800px) {
+    .wrapper1{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      justify-content: space-around;
+      position: absolute;
+      top: 230px;
+    }
   }

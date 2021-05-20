@@ -1,9 +1,12 @@
-import React from 'react'
+import React,{useState} from 'react'
 import Dashboard from './Dashboard'
-import {Link} from 'react-router-dom'
 import Header from './LOGGEDINHEADER'
 import Select from './Select'
+import { useAuth } from "../contexts/AuthContext"
+
 const Hero = () => {
+    const [error, setError] = useState("")
+    const { currentUser, logout } = useAuth()
     return (
         <>
 <Header>
@@ -13,7 +16,7 @@ const Hero = () => {
 
 
 <div id="login-cont">
-<h1>Hello</h1>
+<h1>Hello {currentUser.email} </h1>
 </div>
 
 <Select>
