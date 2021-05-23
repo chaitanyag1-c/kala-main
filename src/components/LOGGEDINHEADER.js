@@ -13,8 +13,13 @@ const LOGGEDINHEADER = () => {
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <Link className="nav-link active" aria-current="page" to="/">Home</Link>
+                </li>
+                <li className="nav-item">
+                <Link className="nav-link active" aria-current="page" to="/select">Select Meals</Link>
               </li>
-              
+                <li className="nav-item">
+                <Link className="nav-link active" aria-current="page" to="/ourteam">Our Team</Link>
+              </li>
             </ul>
             
           </div>

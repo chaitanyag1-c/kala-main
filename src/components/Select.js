@@ -1,9 +1,11 @@
 import React from 'react'
 import './css/select.css'
+import Header from './LOGGEDINHEADER'
 const Select = () => {
     return (
-        <>
-        <div className="sheading">
+        <div id="login-cont">
+        <Header />
+        <div className="sheading" >
         <h2 className="align-text1">Select Meal According to your need</h2>
         </div>
 
@@ -39,7 +41,7 @@ const Select = () => {
 
 
 
-        </>
+        </div>
     )
 }
 

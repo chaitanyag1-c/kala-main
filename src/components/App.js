@@ -7,6 +7,9 @@ import PrivateRoute from "./PrivateRoute"
 import ForgotPassword from "./ForgotPassword"
 import UpdateProfile from "./UpdateProfile"
 import Hero from './Hero'
+import team from './Ourteam'
+import select from './Select'
+import Banner from './Banner'
 import Checkout from './Checkout'
 function App() {
   return (
@@ -21,7 +24,10 @@ function App() {
               <PrivateRoute path="/update-profile" component={UpdateProfile} />
               <Route path="/signup" component={Signup} />
               <Route path="/login" component={Login} />
+              <Route path="/ourteam" component={team} />
+              <Route path="/Select" component={select} />
               <Route path="/checkout" component={Checkout} />
+              <Route path="/banner" component={Banner} />
               <Route path="/forgot-password" component={ForgotPassword} />
             </Switch>
           </AuthProvider>
