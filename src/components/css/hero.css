@@ -14,18 +14,18 @@ html{
     border-radius: 50%;
 }
 #banner-cont::before{
-    background:url('https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') no-repeat center center/cover;
+    background:url('https://images.unsplash.com/photo-1604916776899-a84095942732?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1354&q=80') no-repeat center center/cover;
     content: "";
     position: absolute;
     height: 80vh;
     left:0;
     top:0;
     width: 98vw;
-    opacity: 0.3;
+    opacity: 0.8;
     z-index: -3;
 }
 #cont-bg{
-    background:url('https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') no-repeat center center/cover;
+    background:url('https://images.unsplash.com/photo-1560243563-062bfc001d68?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
     content: "";
     position: absolute;
     height: 90vh;
@@ -35,7 +35,7 @@ html{
 
 }
 #login-cont::before{
-    background:url('https://images.unsplash.com/photo-1543353071-873f17a7a088?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8aGVhbHRoeSUyMGZvb2R8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80') no-repeat center center/cover;
+    background:url('https://images.unsplash.com/photo-1560243563-062bfc001d68?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
     content: "";
     position: absolute;
     height: 99vh;
@@ -47,7 +47,7 @@ html{
 
 @media only screen and (max-width: 800px) {
     #login-cont{
-        background:url('https://images.unsplash.com/photo-1543353071-873f17a7a088?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8aGVhbHRoeSUyMGZvb2R8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80') no-repeat center center/cover;
+        background:url('https://images.unsplash.com/photo-1560243563-062bfc001d68?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
         content: "";
         position: absolute;
         /* height: 190vh; */

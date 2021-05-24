@@ -1,7 +1,7 @@
 
 import React from 'react'
 import './css/Footer.css'
-import logo from './navicon.png'
+import logo from './yourlogo.png'
 import emailjs from 'emailjs-com';
 
 const Footer = () => {
@@ -79,7 +79,7 @@ const Footer = () => {
               {/* End contact Icon */}
               <div className="contact-info">
                 <h3>Indore India</h3>
-                <p>Ratnalok Colony Near Bsnl Office</p>
+                <p>Sudama Nagar</p>
               </div>
               {/* End Contact Info */}
             </div>
@@ -164,9 +164,9 @@ const Footer = () => {
     <div className="fcontainer">
       <div className="row">
         <div className="col-md-6">
-          <span>Copyright © 2019, All Right Reserved Creators Academy</span>
+          <span>Copyright © 2021, All Right Reserved Creators Academy</span>
           <br/>
-          <span>Design and Coded by <a href="https://www.linkedin.com/in/chaitanya-galande-96a491134/" className="credits"> Chaitanya Galande</a></span>
+          <span>Design and Coded by <a href="#" className="credits"> Amisha Verma & Devansh Kala</a></span>
           
 
         </div>

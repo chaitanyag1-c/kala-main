@@ -3,9 +3,9 @@ import {Link} from 'react-router-dom'
 const LOGGEDINHEADER = () => {
     return (
         <>
-        <nav className="navbar navbar-expand-lg navbar-light " style={{background:'aliceblue'}}>
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark " >
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">The Daily Nutrition</a>
+          <a className="navbar-brand" href="#">Lsit N Buy</a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon" />
           </button>
@@ -15,7 +15,7 @@ const LOGGEDINHEADER = () => {
                 <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                 </li>
                 <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/select">Select Meals</Link>
+                <Link className="nav-link active" aria-current="page" to="/select">Select Clothes</Link>
               </li>
                 <li className="nav-item">
                 <Link className="nav-link active" aria-current="page" to="/ourteam">Our Team</Link>
