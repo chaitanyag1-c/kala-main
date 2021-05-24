@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 const Header = () => {
     return (
         <>
-           <nav className="navbar navbar-expand-lg navbar-light " style={{background:'aliceblue'}}>
+           <nav className="navbar navbar-expand-lg navbar-dark bg-dark " style={{background:'aliceblue'}}>
   <div className="container-fluid">
     <a className="navbar-brand" href="#">LIST N BUY</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
